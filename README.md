@@ -52,7 +52,7 @@ Setup
 
 Clone the repository:
 
-git clone [https://github.com/YOUR_USERNAME/edubot-rag.git](https://github.com/YOUR_USERNAME/edubot-rag.git)
+git clone [https://github.com/alesunaga/edubot-rag-groq.git](https://github.com/alesunaga/edubot-rag-groq.git)
 cd edubot-rag
 
 
@@ -89,4 +89,5 @@ The bot answers only based on the uploaded PDF.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Developed by Alexsandro Sunaga, Educational Technology Coordinator.
+
 Based on research by B. Pampel, S. Martin, and A.-M. Lauber (University of Konstanz).
