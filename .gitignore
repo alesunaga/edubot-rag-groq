@@ -1,0 +1,26 @@
+Python cache
+
+pycache/
+*.pyc
+
+Data & Logs (Privacy Protection - CRITICAL)
+
+chat_logs.csv
+*.csv
+
+Sensitive Data
+
+*.pdf
+*.txt
+.env
+
+Environment
+
+venv/
+env/
+.streamlit/
+
+IDE settings
+
+.vscode/
+.idea/
