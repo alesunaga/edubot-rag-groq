@@ -1,0 +1,62 @@
+📘 Tutorial: EduBot RAG (Groq Edition)
+
+Practical Guide for Teachers and Educators
+
+Welcome to EduBot RAG! This version has been optimized to be fast, free, and unlimited. We use Groq technology (ultra-fast chips) for the brain and your own computer for the memory.
+
+1. Advantages of this Version
+
+No Daily Limits: Upload as many books as you want. "Reading" happens on your PC.
+
+Extreme Speed: Near-instant answers to keep the class flowing.
+
+Didactic Focus: Choose between Instructor, Partner, or Assistant.
+
+2. Single Step: The Groq Key
+
+You only need one free key:
+
+Go to: console.groq.com
+
+Create an account with your email.
+
+In the left side menu, click on "API Keys".
+
+Click on "Create API Key" and give it a name (e.g., "School").
+
+Copy the code starting with gsk_... and save it.
+
+3. Installation
+
+Download the Project:
+Clone or download the files from the official repository:
+👉 github.com/alesunaga/edubot-rag-groq
+
+Open the terminal in the downloaded folder.
+
+Type:
+
+pip install -r requirements.txt
+
+
+
+Note: The first time, it may take a few minutes to download the "memory model" (approx. 80MB).
+
+4. How to Use in Class
+
+Run the command: python -m streamlit run rag_chatbot.py
+
+Paste your gsk_... key in the side menu.
+
+The system will automatically load the newest models (e.g., Llama 3.3).
+
+Loading Material:
+
+Simple (Short Text): Use for small texts (1-10 pages). It is instant.
+
+Advanced (Books): Use for large files. Your computer will process it (may take a few seconds), but then the query is immediate.
+
+Golden Tip:
+Always keep the "🔒 Strict Mode" option checked to ensure the robot does not invent answers outside the PDF.
+
+Questions? Contact the Educational Technology Coordination.
